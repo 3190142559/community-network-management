@@ -1,0 +1,13 @@
+{
+  "name": "community-network-management",
+  "version": "1.0.0",
+  "description": "社区网络设备维修管理系统",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm ci && npm run build && cd ../backend && npm ci",
+    "start": "node backend/server.js"
+  },
+  "engines": {
+    "node": ">=14.18.0"
+  }
+}
